@@ -1,0 +1,27 @@
+graph TD
+    subgraph "Aurora Sovereign Intelligence Ecosystem"
+        A[User Interface / API] --> B[Aninha Assistant]
+        B --> C[Aurora Core Engine]
+        C --> D[Logic 369 Optimization]
+        C --> E[Aurora Chain]
+        E --> F[TON Network]
+        E --> G[DREX Protocols]
+    end
+
+    subgraph "Core Components"
+        C1[engine.py]
+        D1[logic_369.py]
+    end
+
+    subgraph "Blockchain Layer"
+        E1[aurora_chain.py]
+    end
+
+    subgraph "Agent Layer"
+        B1[aninha_assistant.py]
+    end
+
+    B --> B1
+    C --> C1
+    D --> D1
+    E --> E1

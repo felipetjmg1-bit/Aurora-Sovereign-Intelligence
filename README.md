@@ -1,5 +1,7 @@
 # Aurora Sovereign Intelligence
 
+![Aurora Architecture](architecture.png)
+
 ## English
 
 **Developed by Felipe Marcos de Abreu Aquino**
@@ -19,6 +21,37 @@ The Aurora Ecosystem is built upon a modular and robust architecture, ensuring s
 *   **Aurora Chain (blockchain/aurora_chain.py):** A secure blockchain integration layer, leveraging the TON network and DREX protocols for decentralized operations and financial technology.
 *   **Aninha Assistant (agents/aninha_assistant.py):** A personalized AI assistant designed for intelligent support and management, streamlining complex tasks and interactions.
 
+### Getting Started
+
+#### Prerequisites
+- Python 3.8+
+- Docker (optional)
+
+#### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/felipetjmg1-bit/Aurora-Sovereign-Intelligence.git
+   cd Aurora-Sovereign-Intelligence
+   ```
+2. Run the setup script:
+   ```bash
+   chmod +x setup.sh
+   ./setup.sh
+   ```
+
+#### Running Tests
+To ensure everything is working correctly, run the automated tests:
+```bash
+python -m unittest discover tests
+```
+
+#### Docker Deployment
+You can also run Aurora in a containerized environment:
+```bash
+docker build -t aurora-sovereign-intelligence .
+docker run aurora-sovereign-intelligence
+```
+
 ### Roadmap 2026
 
 Our ambitious roadmap for 2026 focuses on expanding the Aurora Ecosystem's capabilities and global reach:
@@ -28,9 +61,13 @@ Our ambitious roadmap for 2026 focuses on expanding the Aurora Ecosystem's capab
 3.  **Phase 3: Agent Network Development (Q3-Q4):** Introducing new specialized AI agents to complement Aninha Assistant, focusing on areas like autonomous research, resource management, and secure communication.
 4.  **Phase 4: International Partnerships & Deployment (Q4):** Establishing strategic alliances with international partners and initiating pilot deployments in key sectors to demonstrate Aurora's transformative power.
 
+---
+
 ## Português
 
 # Aurora Sovereign Intelligence
+
+![Arquitetura Aurora](architecture.png)
 
 **Desenvolvido por Felipe Marcos de Abreu Aquino**
 
@@ -48,6 +85,37 @@ O Ecossistema Aurora é construído sobre uma arquitetura modular e robusta, gar
 *   **Lógica 369 (core/logic_369.py):** Um módulo de otimização inspirado na frequência universal 369, aumentando a eficiência e a precisão em todas as operações.
 *   **Aurora Chain (blockchain/aurora_chain.py):** Uma camada de integração blockchain segura, utilizando a rede TON e os protocolos DREX para operações descentralizadas e tecnologia financeira.
 *   **Aninha Assistant (agents/aninha_assistant.py):** Uma assistente de IA personalizada projetada para suporte e gerenciamento inteligentes, simplificando tarefas e interações complexas.
+
+### Primeiros Passos
+
+#### Pré-requisitos
+- Python 3.8+
+- Docker (opcional)
+
+#### Instalação
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/felipetjmg1-bit/Aurora-Sovereign-Intelligence.git
+   cd Aurora-Sovereign-Intelligence
+   ```
+2. Execute o script de configuração:
+   ```bash
+   chmod +x setup.sh
+   ./setup.sh
+   ```
+
+#### Executando Testes
+Para garantir que tudo está funcionando corretamente, execute os testes automatizados:
+```bash
+python -m unittest discover tests
+```
+
+#### Deploy com Docker
+Você também pode executar a Aurora em um ambiente de contêiner:
+```bash
+docker build -t aurora-sovereign-intelligence .
+docker run aurora-sovereign-intelligence
+```
 
 ### Roadmap 2026
 
