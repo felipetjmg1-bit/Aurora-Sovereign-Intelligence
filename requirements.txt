@@ -1,0 +1,10 @@
+web3
+agent-py
+tensorflow
+pytorch
+numpy
+pandas
+scikit-learn
+openai
+langchain
+huggingface-hub
