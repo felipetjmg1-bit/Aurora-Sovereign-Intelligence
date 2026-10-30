@@ -3,3 +3,18 @@ __pycache__/
 venv/
 .env
 node_modules/
+
+# Arquivos locais e artefatos de desenvolvimento
+.DS_Store
+Thumbs.db
+*.log
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+!.env.example
