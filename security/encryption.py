@@ -19,11 +19,11 @@ class EncryptionManager:
         print("Gerenciador de Criptografia inicializado.")
 
     def generate_key(self, key_id: str, key_size: int = 256) -> Dict[str, Any]:
-        """Gera uma chave criptográfica."""
+        """Cria apenas um registro demonstrativo; não gera chave criptográfica real."""
         key = {
             "key_id": key_id,
             "key_size": key_size,
-            "algorithm": "AES",
+            "algorithm": "BASE64-DEMO-NOT-ENCRYPTION",
             "created_at": datetime.now().isoformat(),
             "status": "active"
         }
@@ -53,11 +53,11 @@ class EncryptionManager:
         return hash_result
 
     def encrypt_data(self, data: str, key_id: str) -> Dict[str, Any]:
-        """Criptografa dados (simulação)."""
+        """Codifica dados em Base64 para demonstração; não oferece confidencialidade."""
         if key_id not in self.key_store:
             return {"error": "Chave não encontrada"}
 
-        # Simulação de criptografia
+        # Base64 é codificação reversível, não criptografia.
         encrypted = base64.b64encode(data.encode()).decode()
 
         encryption_record = {
@@ -66,7 +66,7 @@ class EncryptionManager:
             "encrypted_size": len(encrypted),
             "encrypted_data": encrypted,
             "timestamp": datetime.now().isoformat(),
-            "algorithm": "AES-256"
+            "algorithm": "BASE64-DEMO-NOT-ENCRYPTION"
         }
 
         self.encryption_log.append(encryption_record)
@@ -74,12 +74,12 @@ class EncryptionManager:
         return encryption_record
 
     def decrypt_data(self, encrypted_data: str, key_id: str) -> Dict[str, Any]:
-        """Descriptografa dados (simulação)."""
+        """Decodifica Base64; isso não é descriptografia criptográfica."""
         if key_id not in self.key_store:
             return {"error": "Chave não encontrada"}
 
         try:
-            # Simulação de descriptografia
+            # Base64 é decodificação, não descriptografia criptográfica.
             decrypted = base64.b64decode(encrypted_data).decode()
 
             decryption_record = {
