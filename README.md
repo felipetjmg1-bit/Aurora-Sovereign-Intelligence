@@ -1,5 +1,8 @@
 ![Status: Demonstração](https://img.shields.io/badge/Status-Demonstração-blue) | [![Licença Apache-2.0](https://img.shields.io/github/license/felipetjmg1-bit/Aurora-Sovereign-Intelligence)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
+<p align="center"><img src="PROJECT-OVERVIEW.svg" alt="Diagrama explicativo de Aurora Sovereign Intelligence" width="100%"></p>
+
+
 # Aurora Sovereign Intelligence — Módulos Demonstrativos
 
 ## Visão geral
@@ -64,3 +67,6 @@ Este repositório está licenciado sob **Apache-2.0**; consulte [LICENSE](LICENS
 O desenvolvimento aberto exige tempo para manutenção, documentação, testes, revisão de contribuições e resposta a issues. Se este projeto for útil, considere apoiar a continuidade pelo [GitHub Sponsors](https://github.com/sponsors/felipetjmg1-bit). O apoio não representa promessa de funcionalidades, prazo de entrega ou suporte comercial.
 
 [![Patrocinar felipetjmg1-bit](https://img.shields.io/badge/Patrocinar%20no-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
+
+
+**Empresa responsável:** Impulso Digital Soluções em IA.
